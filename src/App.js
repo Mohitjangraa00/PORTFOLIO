@@ -2,10 +2,10 @@ import React from "react";
 import Header from "./components/Header";
 import About from "./components/About";
 import Skills from "./components/Skills";
-import project from "./components/project";
+import Projects from "./components/Projects";   // ✅ Capital
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
-import footer from "./components/footer";
+import Footer from "./components/Footer";      // ✅ Capital
 
 function App() {
   return (
@@ -13,10 +13,10 @@ function App() {
       <Header />
       <About />
       <Skills />
-      <project />
+      <Projects />   {/* ✅ FIXED */}
       <Resume />
       <Contact />
-      <footer />
+      <Footer />     {/* ✅ FIXED */}
     </div>
   );
 }
